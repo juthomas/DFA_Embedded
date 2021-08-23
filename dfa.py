@@ -3,7 +3,8 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-x = np.array([8, 10, 6, 9, 7, 5, 5, 11, 11, 8, 6, 7, 9, 10, 7, 9])
+# x = np.array([8, 10, 6, 9, 7, 5, 5, 11, 11, 8, 6, 7, 9, 10, 7, 9])
+x = np.array([8, 8,8,8,8,8,8,8,8,4,8,8,8,8,8,8])
 plt.plot(x)
 plt.show()
 
@@ -122,7 +123,6 @@ plt.show()
 
 print('alpha', alpha)
 print('alpha2', alpha2)
-
 # interpretation
 
 # alpha = 0.5 - when the scale increases 2 times the sq root of variance increases about 1.5 times
