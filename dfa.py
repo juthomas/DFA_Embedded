@@ -88,12 +88,15 @@ for e, sc in enumerate(scales):
     xfit = np.polyval(coeff, scale_ax)
     print('xfit', xfit)
 
+
     # root mean square of the difference between the value and the fit
     rms[w] = np.sqrt(np.mean((xcut-xfit)**2))
     # print('rms',e,rms[e])
     # which is the same as stdev
     # stdv = (xcut-xfit).std()
-  
+    print("rms[w]", rms[w])
+    print()
+
   print(rms)
   fluct[e] = np.sqrt(np.mean(rms**2))
 
